@@ -1,0 +1,1 @@
+buildCommand: TAILWIND_DISABLE_NATIVE=true npm run build

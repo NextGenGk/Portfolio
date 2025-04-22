@@ -5,7 +5,7 @@ import path from 'path' // Add this import
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(), autoprefixer()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'), // this enables @ to refer to /src
