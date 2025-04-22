@@ -1,0 +1,3 @@
+[build.environment]
+TAILWIND_MODE = "build"
+TAILWIND_DISABLE_NATIVE = "true"
