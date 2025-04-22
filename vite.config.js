@@ -5,17 +5,10 @@ import path from 'path' // Add this import
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(), autoprefixer()],
+  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'), // this enables @ to refer to /src
     },
   },
-  server: {
-    allowedHosts: [
-      'localhost',
-      'fri-roller-raises-drivers.trycloudflare.com',
-      'robust-pos-around-jamie.trycloudflare.com'
-    ]
-  }
 })
